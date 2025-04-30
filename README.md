@@ -16,7 +16,7 @@ A full-stack simulation of an **Enterprise Asset Management (EAM)** platform tha
 ---
 
 ## Project Structure
-``
+```
 transit-safety-analytics/
 │── data                            
 │   ├── gis_osm_buildings_a_free_1.sh       # Shapefiles from Geofabrik 
@@ -38,19 +38,19 @@ transit-safety-analytics/
 ## Installation
 
 1. Clone the repository:
-   ```bash
-   gh repo clone Sarthak2403/Asset_Failure_Prediction_System
+```bash
+   gh repo clone Sarthak2403/EAM_Based_Asset_Tracking_System
    cd Asset_Failure_Prediction_System
-
+```
 2. Create a virtual environment:
-   ```bash
+```bash
    python -m venv venv
    source venv/bin/activate  # On Windows use `venv\Scripts\activate`
-   ```
+```
 3. Install dependencies:
-   ```bash
+```bash
    pip install -r requirements.txt
-   ```
+```
 
 4. Download the data from:
 ```
