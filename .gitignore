@@ -16,3 +16,12 @@ __pycache__/
 # Ignore environment-specific files
 .env
 .DS_Store
+
+# Ignore raw GIS files and large OSM shapefiles
+data/*.shp
+data/*.dbf
+data/*.shx
+data/*.prj
+data/*.qpj
+data/*.cpg
+data/*.osm.pbf
